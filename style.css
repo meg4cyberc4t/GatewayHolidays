@@ -151,7 +151,7 @@ body {
 }
 
 .package__item img {
-    max-width: calc(200px + 200 * (100vw / 1280));
+    max-width: calc(300px + 200 * (100vw / 1280));
 }
 
 .package__text {
@@ -192,10 +192,11 @@ body {
     align-content: center;
 }
 .social_block img {
-    max-width: calc(200px + 200 * (100vw / 1280));
+    max-width: calc(300px + 200 * (100vw / 1280));
 }
 
 #feedback_form{
+    max-width: 500px;
     display: flex;
     flex-direction: column;
 }
