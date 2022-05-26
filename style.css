@@ -237,14 +237,15 @@ input[type=submit]:hover {
     margin-bottom: 20px;
     margin-top: 60px;
     flex-direction: row;
-    gap: 20px;
+    row-gap: 20px;
+    column-gap: 30px;
 }
 
 .social_item{
-    min-width: 220px;
+    width: 250px;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-    justify-content: space-between;
+    align-content: start;
+    justify-content: start;
     gap: 20px;
 }
