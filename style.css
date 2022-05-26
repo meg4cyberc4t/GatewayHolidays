@@ -116,14 +116,6 @@ body {
     background-size: cover;
     -webkit-background-size: cover;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    opacity: 1;
-    transition: .3s ease-in-out;
-}
-
-.services__item:hover {
-    color: black;
-    opacity: 0.8;
-    background-color: black;
 }
 
 
