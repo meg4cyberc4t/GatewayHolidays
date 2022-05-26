@@ -6,6 +6,118 @@
     <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <h1>For test github.io</h1>
+<div class="head">
+    <h1 class="head__title">Getaway</h1>
+    <h1 class="head__title">Holidays</h1>
+</div>
+<div class="block">
+    <div class="block__inner">
+        <p class="block__title">Наши услуги</p>
+        <div class="services__list">
+            <div class="services__item" style="background-image: url('images/tab1.png')">
+                <p>Уроки катания на лыжах и сноуборде</p>
+            </div>
+            <div class="services__item" style="background-image: url('images/tab2.png')">
+                <p>Обслуживание лыж и сноубордов</p>
+            </div>
+            <div class="services__item" style="background-image: url('images/tab3.png')">
+                <p>Прокат оборудования</p>
+            </div>
+            <div class="services__item" style="background-image: url('images/tab4.png')">
+                <p>А так же катание на коньках, велосипедах и спа-процедуры</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="block__inner">
+        <p class="block__title">Выберите удобный пакет</p>
+        <div class="package__item">
+            <img src="images/package1.png">
+            <div class="package__text">
+                <p class="package__text__headline">Базовый</p>
+                <p class="package__text__body">1 утренний перекус (горячий напиток и закуска)
+                    1 ужин, который подается в ресторане на территории отеля
+                    1 х 1 час санаторно-курортных процедур
+                    бесплатный пропуск на подъемник на 1 день.</p>
+            </div>
+        </div>
+        <div class="package__item" style="flex-direction: row-reverse">
+            <img src="images/package2.png">
+            <div class="package__text">
+                <p class="package__text__headline">Стандартный</p>
+                <p class="package__text__body">3 утренних прохладительных напитка (горячие напитки и закуски)
+                    3 ужина, которые подаются в ресторане на территории отеля
+                    3 спа-процедуры по 1 часу
+                    бесплатный пропуск на подъемник на 3 дня.</p>
+            </div>
+        </div>
+        <div class="package__item">
+            <img src="images/package3.png">
+            <div class="package__text">
+                <p class="package__text__headline">Пакет Люкс</p>
+                <p class="package__text__body">Eжедневные утренние закуски (горячие напитки и закуски)
+                    5 ужинов, которые подаются в ресторане на территории отеля
+                    5 спа-процедур по 1 часу
+                    Бесплатный абонемент на подъемник на 1 неделю.</p>
+            </div>
+        </div>
+        <div class="package__item" style="flex-direction: row-reverse">
+            <img src="images/package4.png">
+            <div class="package__text">
+                <p class="package__text__headline">Индивидуальный</p>
+                <p class="package__text__body">Настраиваемый под вас
+                    Групповые занятия
+                    Занятия на апре-ски
+                    (Необходимо связаться с нами, чтобы организовать персональный пакет)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="block__inner">
+        <p class="block__title">Свяжитесь с нами!</p>
+        <div class="social_block">
+            <img src="images/social.png" alt="social">
+            <form id="feedback_form" action="#">
+                <p class="package__text__headline">Оставить заявку</p>
+                <input type="text" name="name" id="name" placeholder="Ваше имя*" required>
+                <input type="tel" name="tel" id="tel" placeholder="Ваш телефон*" required>
+                <input type="text" name="text" id="text" placeholder="Сообщение для нас" required>
+                <input type="submit" id="submit_button" name="submit_button" tabindex="5" value="Отправить Сообщение">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="block__inner social_networks_block">
+        <div class="social_item">
+            <div class="icon__bg" style="background:#F00056">
+                <img src="images/phone.svg" style="margin: 14px 14px 12px 14px;" alt="phone">
+            </div>
+            <p>+7-(123)-123-12-12</p>
+        </div>
+        <div class="social_item">
+            <div class="icon__bg" style="background:#0077FF">
+                <img src="images/vk.svg" style="margin: 12px 12px 10px 12px;" alt="vk">
+            </div>
+            <p>@gatewayholidays</p>
+        </div>
+        <div class="social_item">
+            <div class="icon__bg" style="background:#0088CC">
+                <img src="images/telegram.svg" style="margin: 14px 14px 10px 12px;" alt="telegram">
+            </div>
+            <p>@gatewayholidays</p>
+        </div>
+        <div class="social_item">
+            <div class="icon__bg" style="background:#25D366">
+                <img src="images/whatsapp.svg" style="margin: 12px 12px 10px 12px;" alt="whatsapp">
+            </div>
+            <p>@gatewayholidays</p>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
